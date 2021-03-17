@@ -705,6 +705,36 @@ header label {
   margin: 0;
   padding-top: 0;
 }
+.aboutIntro {
+  transform: translateY(16vh);
+  text-align: center;
+}
+.aboutIntro .avatar {
+  padding: 0px;
+}
+.aboutIntro .avatar img {
+  width: 200px;
+  height: auto;
+  display: inline-block;
+  margin: 0 auto;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+.aboutName {
+  font-size: 1.5em;
+  font-weight: normal;
+}
+.identification {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-top: 1rem;
+  color: #ca3e47;
+}
+.dark-theme .identification {
+  color: #d9d9f3;
+}
 .post-wrap p {
   font-size: 1em;
   margin: 1em 0 1em 0;
