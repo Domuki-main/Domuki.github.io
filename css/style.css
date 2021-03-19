@@ -723,14 +723,15 @@ header label {
   transition: all ease 0.4s;
 }
 .aboutName {
-  font-size: 1.5em;
+  font-size: 1.6em;
   font-weight: normal;
+  padding-top: 1rem;
 }
 .identification {
   font-size: 1.2em;
   font-weight: bold;
-  padding-top: 1rem;
-  color: #ca3e47;
+  padding-top: 0.5rem;
+  color: #ff585d;
 }
 .dark-theme .identification {
   color: #d9d9f3;
@@ -743,7 +744,7 @@ header label {
   margin: 0 !important;
 }
 .post-wrap .post-title {
-  font-size: 2em;
+  font-size: 3.5em;
   line-height: 1.5em;
 }
 .post-wrap .post-meta {
@@ -777,7 +778,7 @@ header label {
   padding-bottom: 0.3em;
 }
 .post-content h1::before {
-  content: "#";
+  content: "¹";
   margin-right: 5px;
   color: #2d96bd;
 }
@@ -785,7 +786,7 @@ header label {
   color: #eee;
 }
 .post-content h2::before {
-  content: "#";
+  content: "²";
   margin-right: 5px;
   color: #2d96bd;
 }
@@ -793,7 +794,7 @@ header label {
   color: #eee;
 }
 .post-content h3::before {
-  content: "|";
+  content: "³";
   margin-right: 5px;
   color: #2d96bd;
 }
@@ -801,7 +802,7 @@ header label {
   color: #eee;
 }
 .post-content h4::before {
-  content: "*";
+  content: "⁴";
   margin-right: 5px;
   color: #2d96bd;
 }
