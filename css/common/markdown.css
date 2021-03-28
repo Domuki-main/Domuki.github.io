@@ -23,9 +23,10 @@
   text-decoration: none;
   overflow-wrap: break-word;
   cursor: pointer;
-  border-bottom: 1px solid var(--third-text-color);
+  border-bottom: 0px solid var(--third-text-color);
   box-sizing: border-box;
   padding-bottom: 2px;
+  color: #4285f4;
 }
 .markdown-body a .fas,
 .markdown-body a .far,
@@ -84,33 +85,33 @@
 keep-tablet()
 }
 .markdown-body h1 {
-  font-size: 1.8rem;
+  font-size: 2.3rem;
   font-weight: 600;
 keep-tablet()
 }
 .markdown-body h2 {
-  font-size: 1.7rem;
-  font-weight: 600;
+  font-size: 2.1rem;
+  font-weight: 550;
 keep-tablet()
 }
 .markdown-body h3 {
-  font-size: 1.6rem;
-  font-weight: 550;
+  font-size: 1.9rem;
+  font-weight: 500;
 keep-tablet()
 }
 .markdown-body h4 {
-  font-size: 1.5rem;
-  font-weight: 550;
+  font-size: 1.7rem;
+  font-weight: 450;
 keep-tablet()
 }
 .markdown-body h5 {
-  font-size: 1.28rem;
-  font-weight: 500;
+  font-size: 1.5rem;
+  font-weight: 400;
 keep-tablet()
 }
 .markdown-body h6 {
-  font-size: 1.2rem;
-  font-weight: 500;
+  font-size: 1.3rem;
+  font-weight: 400;
   line-height: 1.2;
 keep-tablet()
 }
