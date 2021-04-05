@@ -1110,6 +1110,83 @@
       </tags>
   </entry>
   <entry>
+    <title>Basic Commands in Linux</title>
+    <url>/2021/04/05/Basic-Commands-in-Linux/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><em><strong>whoiam</strong></em> to identify the user</p>
+<p><em><strong>pwd</strong></em> to show what dir are you in</p>
+<p><em><strong>touch a.txt</strong></em> Create a file named ‘a.txt’ in the current directory</p>
+<p><em><strong>echo “sometext”</strong></em> Print out the text ‘this is a text’ to the computer screen.</p>
+<p><em><strong>echo “this is a text” &gt; a.txt</strong></em> paste content to a.txt (overwrite)</p>
+<p><em><strong>echo “this is a text” &gt;&gt; a.txt</strong></em> paste content to a.txt after the content in a.txt</p>
+<p><strong>more</strong> and <strong>less</strong> command can be used to view the content of a file:</p>
+<blockquote>
+<p><em><strong>more a.txt</strong></em> </p>
+<p><em><strong>less a.txt</strong></em></p>
+</blockquote>
+<p>copy the content of a.txt into b.txt using <strong>more</strong> command:</p>
+<blockquote>
+<p><em><strong>more a.txt &gt; b.txt</strong></em></p>
+</blockquote>
+<p><em><strong>ls</strong></em> command will list directories and files in a directory. </p>
+<p>type: <strong>cd $root</strong> change to the root directory</p>
+<p><em><strong>ls -a</strong></em> list all the name of the folders and files in root dir</p>
+<p><em><strong>ls -l</strong></em> list all the information of the folders and files in root dir</p>
+<p>To create directories, use the <em><strong>mkdir <directory_name></directory_name></strong></em> command</p>
+<p>To change directories, use the <em><strong>cd <directory_name></directory_name></strong></em> command</p>
+<p>the <em><strong>cp</strong></em> command to make a copy of a file, with a new name</p>
+<p>To rename a file, you can use the <em><strong>mv</strong></em> command</p>
+<p>Delete files by using the <em><strong>rm</strong></em> command. </p>
+<p>To delete a directory in Linux, use the <em><strong>rmdir directory_name</strong></em> command</p>
+<p>To remove <u>non-empty directory</u> (and also for empty directory), use <em><strong>rm -r</strong></em></p>
+<p>(Tips: The deletion process will skip the question if using <em><strong>–f</strong></em> switch (force) e.g. <em><strong>rm IT -fr</strong></em> )</p>
+<p>To view currently running process(es) in user space, use the <em><strong>ps</strong></em> command</p>
+<p>A current process can be suspended by pressing <strong>Ctrl+Z</strong> (e.g. open an application and then pressing Ctrl+Z will cause the application to stop and display the shell).</p>
+<p><strong>vim</strong></p>
+<p>this will run the vim text editor. Press <strong>Ctrl+Z</strong>. </p>
+<p>When user suspend a process, the process can be brought back by using the command <em><strong>fg</strong></em>. To bring back the Vim editor,</p>
+<p>(to exit vim - press Esc, then type :q and press Enter)</p>
+<p>to get help about a specific command e.g. <em><strong>man ls</strong></em> or use –help switch e.g. <em><strong>ls –help</strong></em> </p>
+<p>Difference: </p>
+<p><em><strong>–help</strong></em> <em>can give a quick usage summary but <strong>man</strong> pages are usually much more detailed, better formatted</em></p>
+]]></content>
+      <categories>
+        <category>Operating System</category>
+      </categories>
+      <tags>
+        <tag>CMD</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Basic Commands in Windows</title>
+    <url>/2021/04/05/Basic-Commands-in-Windows/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><em><strong>dir</strong></em> - Displaying Directory Content</p>
+<p>*<strong>cd*</strong> - change to the root directory</p>
+<p><em><strong>cd [dir-name]</strong></em> - change to the [dir-name] directory</p>
+<p><em><strong>dir .</strong></em> - Displaying current directory content</p>
+<p><em><strong>dir ..</strong></em> - Displaying parent directory content</p>
+<p><em><strong>dir [file-name]</strong></em> - Displaying current directory content</p>
+<p>*<strong>dir c:\mydir | find “file1.txt”*</strong> - determine the existence of a file named ‘file1.txt’ in a directory named ‘mydir’ in the upper level</p>
+<p><em><strong>md [dir-name]</strong></em> - Create an [dir-name] directory</p>
+<p><em><strong>copy con [file-name]</strong></em> - create an file</p>
+<p><em><strong>copy [file1] [file2]</strong></em> - Make a backup of the file2.doc file with other name file1.doc</p>
+<p><em><strong>ren [file1] [file2]</strong></em> - rename file1 to file2</p>
+<p><em><strong>del [file]</strong></em> - delete a file</p>
+<p><em><strong>rd [directory_name]</strong></em> - Delete a void directory</p>
+<p><em><strong>rmdir [directory_name]</strong></em> - Delete a directory</p>
+]]></content>
+      <categories>
+        <category>Operating System</category>
+      </categories>
+      <tags>
+        <tag>CMD</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>untitled</title>
+    <url>/2021/04/01/untitled/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+  </entry>
+  <entry>
     <title>About Me</title>
     <url>/about/index.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1><span id="domuki-ma-zy">Domuki (Ma Z.Y.)</span></h1><p>Domuki (Ma ZhiYuan) is a musician, programmer and a lifelong learner. He currently is studying Software Engineering in UPM. He likes to share what he has learnt with the others. </p>
