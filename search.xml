@@ -1182,11 +1182,6 @@
       </tags>
   </entry>
   <entry>
-    <title>untitled</title>
-    <url>/2021/04/01/untitled/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
-  </entry>
-  <entry>
     <title>Weekly Summary no.2 in 2021</title>
     <url>/2021/04/05/Weekly-Summary-no-2-in-2021/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><table>
@@ -1198,15 +1193,15 @@
 </thead>
 <tbody><tr>
 <td>BASIC MYANMAR LANGUAGE I</td>
-<td></td>
+<td>Basic Pronunciation</td>
 </tr>
 <tr>
 <td>USER INTERFACE AND USER EXPERIENCE</td>
-<td></td>
+<td>Note Week 2</td>
 </tr>
 <tr>
 <td>WRITING ACADEMIC TEXTS</td>
-<td></td>
+<td>Activities and Tasks</td>
 </tr>
 <tr>
 <td>SOFTWARE TESTING</td>
@@ -1222,7 +1217,7 @@
 </tr>
 <tr>
 <td>WEB APPLICATION DEVELOPMENT</td>
-<td></td>
+<td><a class="link" href="https://domuki-website.000webhostapp.com/index.html">Lab<i class="fas fa-external-link-alt"></i></a></td>
 </tr>
 <tr>
 <td>OPERATING SYSTEM</td>
@@ -1235,6 +1230,78 @@
       </categories>
       <tags>
         <tag>Diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Bootstrap</title>
+    <url>/2021/04/05/Bootstrap/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1><span id="advantages">Advantages</span></h1><ul>
+<li>Easy to use</li>
+<li>Responsive features</li>
+<li>Mobile first approach</li>
+<li>Browser compatibility</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Web Application Development</category>
+      </categories>
+      <tags>
+        <tag>Bootstrap</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>User Interface and User Experience Week 2</title>
+    <url>/2021/04/05/User-Interface-and-User-Experience-Week-2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>In chapter 2, we learnt about the concepts of Cognitive Engineering.</p>
+<h2><span id="outline">Outline</span></h2><ol>
+<li>What is cognition?</li>
+<li>Describe how cognition has been applied to interaction design</li>
+<li>Explain what are Mental Models</li>
+<li>Cover relevant theories of cognition</li>
+</ol>
+<h2><span id="what-is-cognition">What is cognition</span></h2><p><strong>Cognition</strong> refers to what goes on in humans mind when they carry out everyday activities. It involves lots of <strong>cognitive</strong> processes, such as thinking, remembering, learning and decision making.</p>
+<h2><span id="design-implication-aspects">Design Implication Aspects</span></h2><ul>
+<li>Attention</li>
+<li>Perception</li>
+<li>Memory</li>
+<li>Learning</li>
+<li>Reading, speaking and listening</li>
+<li>Problem-solving, planning, reasoning and decision-making</li>
+</ul>
+<h2><span id="mental-model">Mental model</span></h2><p>A <strong>mental model</strong> is an explanation of someone’s thought process about how something works in the real world.</p>
+]]></content>
+      <categories>
+        <category>UIUX</category>
+      </categories>
+      <tags>
+        <tag>UIUX</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>User Interface and User Experience Week 3</title>
+    <url>/2021/04/11/User-Interface-and-User-Experience-Week-3/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>This week we missed one of our class but we finished a activity which also be presented on second class in this week.</p>
+<p>For the activity, there are 2 sections.</p>
+<h2><span id="section-a">Section A</span></h2><ul>
+<li>Use examples from the previous class (system/app that gives positive UX and negative UX).</li>
+<li>Assess the app using cognitive aspects (attention, perception, memory) lectured in class.</li>
+<li>Copy the design implications item from attention, perception, memory into the given table (done for Positive UX app, please create the same table for Negative UX Apps).</li>
+<li>Assess the app UI’s main feature based on the following instructions.</li>
+</ul>
+<p>Describe in either column Clear or Vague/unclear representation in Table 1(Positive UX Apps) and 2 (Negative UX Apps). Screenshot the UI that shows the clear and vague indication on the UI in the appropriate column. If the UI shows vague representation, suggest ways to improve that particular context’s cognitive aspects with sketching at the Suggestion to improve column. Also, add more design implication into each cognitive aspect lacking from the given list in the table (if any).</p>
+<h2><span id="section-b">Section B</span></h2><p>Describe the mental model of groceries list to buy. List out each step you take to accomplish  the goal. </p>
+<p><strong>Experience:</strong><br>Regarding when people go for shopping in mental experience, people get in the shop to buy  the things they in their plan or to just look around and to buy something randomly. They are shopping  with a container, their hands, baskets or carts, to keep the item they choose to buy. they are walking around the shop to find the item which they want to buy, and the items will be put in container once they find it after they check the information. At the end of shopping, before they leave, they have to pay the money according to the items. </p>
+<p><strong>Then we put it into mental model:</strong><br>Step 1. Browse and search items<br>Step 2. Find out more information of the items<br>Step 3. Add/Remove items to/from the shopping cart<br>Step 4. Checkout<br>Step 5. Choose how to pay and a shipping/delivery option<br>Step 6. submit order<br>Step 7. Get some type of feedback confirming the order was done<br>Step 8. The shopping process is done</p>
+<h2><span id="metaphor">Metaphor</span></h2><p>In user interface design, an <strong>interface metaphor</strong> is a set of user interface visuals, actions, behaviours and procedures that exploit specific knowledge that users already have of other areas, in order to help users to interact with the user interface.   </p>
+<h3><span id="verbal-metaphor">Verbal metaphor</span></h3><p>Knowledge about a familiar domain in terms of elements and their relation to each other is mapped on to those in the unfamiliar one</p>
+<h3><span id="virtual-metaphor">Virtual metaphor</span></h3><p>To create electronic counterparts to the physical objects in an office.</p>
+<h3><span id="verbal-metaphor">Verbal metaphor</span></h3><p>Combine two metaphors or more together for carrying out a range of computer based actions</p>
+]]></content>
+      <categories>
+        <category>UIUX</category>
+      </categories>
+      <tags>
+        <tag>UIUX</tag>
       </tags>
   </entry>
   <entry>
