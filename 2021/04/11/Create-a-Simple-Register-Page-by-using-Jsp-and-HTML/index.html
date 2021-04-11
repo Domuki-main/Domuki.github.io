@@ -9,7 +9,7 @@
     
     <title>
         
-            Weekly Summary no.3 in 2021 |
+            Create a Simple Register Page by using Jsp and HTML |
         
         Domuki&#39;s Site
     </title>
@@ -173,7 +173,7 @@
     <div class="article-content-container">
 
         <div class="article-title">
-            <span class="title-hover-animation">Weekly Summary no.3 in 2021</span>
+            <span class="title-hover-animation">Create a Simple Register Page by using Jsp and HTML</span>
         </div>
 
         
@@ -189,7 +189,7 @@
                     <div class="meta-info">
                         <div class="article-meta-info">
     <span class="article-date article-meta-item">
-        <i class="fas fa-edit"></i>&nbsp;2021-04-11 12:13:39
+        <i class="fas fa-edit"></i>&nbsp;2021-04-11 15:22:21
     </span>
     
         <span class="article-categories article-meta-item">
@@ -197,7 +197,7 @@
             <ul>
                 
                     <li>
-                        <a href="/categories/Weekly-Summary/">Weekly Summary</a>&nbsp;
+                        <a href="/categories/Web-Application/">Web Application</a>&nbsp;
                     </li>
                 
             </ul>
@@ -209,7 +209,11 @@
             <ul>
                 
                     <li>
-                        <a href="/tags/Diary/">Diary</a>&nbsp;
+                        <a href="/tags/HTML/">HTML</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/JavaScript/">JavaScript</a>&nbsp;
                     </li>
                 
             </ul>
@@ -232,38 +236,8 @@
         
 
         <div class="article-content markdown-body">
-            <table>
-<thead>
-<tr>
-<th>Course Name</th>
-<th>Note Link</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>USER INTERFACE AND USER EXPERIENCE</td>
-<td><a href="https://domuki.top/2021/04/11/User-Interface-and-User-Experience-Week-3/">Activity 2</a></td>
-</tr>
-<tr>
-<td>WRITING ACADEMIC TEXTS</td>
-<td>WorkSheet 3<br>Brainstorm</td>
-</tr>
-<tr>
-<td>SOFTWARE TESTING</td>
-<td>Chapter 3</td>
-</tr>
-<tr>
-<td>SOFTWARE ARCHITECTURE</td>
-<td>Chapter 3</td>
-</tr>
-<tr>
-<td>WEB APPLICATION DEVELOPMENT</td>
-<td>Lab 3:  PHP<br><a href>Lab JavaScript: create a simple register page</a></td>
-</tr>
-<tr>
-<td>OPERATING SYSTEM</td>
-<td><a href>Lab 3: Cmd in Linux 2</a></td>
-</tr>
-</tbody></table>
+            <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span> <span class="attr">dir</span>=<span class="string">&quot;ltr&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span>&gt;</span><span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span></span><br><span class="line"><span class="javascript">    <span class="function"><span class="keyword">function</span> <span class="title">validateInput</span>(<span class="params"></span>) </span>&#123;</span></span><br><span class="line"><span class="javascript">      <span class="keyword">if</span> (<span class="built_in">document</span>.getElementById(<span class="string">&quot;username&quot;</span>).value == <span class="string">&quot;&quot;</span>)</span></span><br><span class="line"><span class="javascript">        alert(<span class="string">&#x27;username cannot be empty&#x27;</span>);</span></span><br><span class="line"><span class="javascript">      <span class="keyword">else</span> <span class="keyword">if</span> (<span class="built_in">document</span>.getElementById(<span class="string">&quot;password&quot;</span>).value == <span class="string">&quot;&quot;</span>)</span></span><br><span class="line"><span class="javascript">        alert(<span class="string">&#x27;username cannot be empty&#x27;</span>);</span></span><br><span class="line"><span class="javascript">      <span class="keyword">else</span> <span class="keyword">if</span> (!ValidateEmail(<span class="built_in">document</span>.getElementById(<span class="string">&quot;email&quot;</span>)))</span></span><br><span class="line"><span class="javascript">        alert(<span class="string">&#x27;email problem&#x27;</span>);</span></span><br><span class="line"><span class="javascript">      <span class="keyword">else</span></span></span><br><span class="line"><span class="javascript">        alert(<span class="string">&#x27;submit it&#x27;</span>);</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"><span class="javascript">    <span class="function"><span class="keyword">function</span> <span class="title">ValidateEmail</span>(<span class="params">inputText</span>) </span>&#123;</span></span><br><span class="line"><span class="javascript">      <span class="keyword">var</span> mailformat = <span class="regexp">/^[a-zA-Z0-9.!#$%&amp;&#x27;*+/=?^_`&#123;|&#125;~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/</span>;</span></span><br><span class="line"><span class="javascript">      <span class="keyword">return</span> inputText.value.match(mailformat);</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">&quot;form_processor.php&quot;</span> <span class="attr">method</span>=<span class="string">&quot;post&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>Username: <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">name</span>=<span class="string">&quot;username&quot;</span> <span class="attr">id</span>=<span class="string">&quot;username&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>Paaword: <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;password&quot;</span> <span class="attr">name</span>=<span class="string">&quot;password&quot;</span> <span class="attr">id</span>=<span class="string">&quot;password&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>Email: <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">name</span>=<span class="string">&quot;email&quot;</span> <span class="attr">id</span>=<span class="string">&quot;email&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">&quot;button&quot;</span> <span class="attr">name</span>=<span class="string">&quot;button&quot;</span> <span class="attr">onclick</span>=<span class="string">&quot;validateInput()&quot;</span>&gt;</span>Register<span class="tag">&lt;/<span class="name">button</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">&quot;reset&quot;</span> <span class="attr">name</span>=<span class="string">&quot;button&quot;</span> <span class="attr">onclick</span>=<span class="string">&quot;validateInput()&quot;</span>&gt;</span>Reset<span class="tag">&lt;/<span class="name">button</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
 
         </div>
 
@@ -271,11 +245,11 @@
             <div class="post-copyright-info">
                 <div class="article-copyright-info-container">
     <ul>
-        <li>Post title：Weekly Summary no.3 in 2021</li>
+        <li>Post title：Create a Simple Register Page by using Jsp and HTML</li>
         <li>Post author：Domuki</li>
-        <li>Create time：2021-04-11 12:13:39</li>
+        <li>Create time：2021-04-11 15:22:21</li>
         <li>
-            Post link：https://domuki.top/2021/04/11/Weekly-Summary-no-3-in-2021/
+            Post link：https://domuki.top/2021/04/11/Create-a-Simple-Register-Page-by-using-Jsp-and-HTML/
         </li>
         <li>
             Copyright Notice：All articles in this blog are licensed under <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> unless stating additionally.
@@ -289,29 +263,14 @@
         
             <div class="article-nav">
                 
-                    <div class="article-prev">
-                        <a class="prev"
-                           rel="prev"
-                           href="/2021/04/11/Create-a-Simple-Register-Page-by-using-Jsp-and-HTML/"
-                        >
-                            <span class="left arrow-icon flex-center">
-                              <i class="fas fa-chevron-left"></i>
-                            </span>
-                            <span class="title flex-center">
-                                <span class="post-nav-title-item">Create a Simple Register Page by using Jsp and HTML</span>
-                                <span class="post-nav-item">Prev posts</span>
-                            </span>
-                        </a>
-                    </div>
-                
                 
                     <div class="article-next">
                         <a class="next"
                            rel="next"
-                           href="/2021/04/11/User-Interface-and-User-Experience-Week-3/"
+                           href="/2021/04/11/Weekly-Summary-no-3-in-2021/"
                         >
                             <span class="title flex-center">
-                                <span class="post-nav-title-item">User Interface and User Experience Week 3</span>
+                                <span class="post-nav-title-item">Weekly Summary no.3 in 2021</span>
                                 <span class="post-nav-item">Next posts</span>
                             </span>
                             <span class="right arrow-icon flex-center">
