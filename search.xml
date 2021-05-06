@@ -6115,11 +6115,6 @@
       </tags>
   </entry>
   <entry>
-    <title>How I install Linux on my old laptop</title>
-    <url>/2021/04/28/How-I-install-Linux-on-my-old-laptop/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
-  </entry>
-  <entry>
     <title>Scheduling Algorithm</title>
     <url>/2021/04/30/Scheduling-Algorithm/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2><span id="scheduling-algorithms-1-first-come-first-serve-fcfs">Scheduling Algorithms 1 – First-Come-First-Serve (FCFS)</span></h2><p>You are given a scheduling problem in Table 1 below, which involved 5 processes with the given arrival time and burst time:</p>
@@ -6284,6 +6279,37 @@
       </categories>
       <tags>
         <tag>OS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>User Interface and User Experience Week 5</title>
+    <url>/2021/05/06/User-Interface-and-User-Experience-Week-5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1><span id="presentation">Presentation</span></h1><h2><span id="group-information">Group information</span></h2><p>Project title: <strong>Color it</strong></p>
+<p>Group name: <strong>WeDesign</strong></p>
+<p>Group member: </p>
+<ul>
+<li>Aous</li>
+<li>Ma</li>
+<li>Wang</li>
+</ul>
+<h2><span id="projectresearch-information">Project/Research information</span></h2><h3><span id="introduction">Introduction</span></h3><p>Designer struggling to find a color that fits their needs.so designers can select their own appropriate color groups or individual colors for use in the designing their software, or generate random colors automatically.</p>
+<h3><span id="objective">Objective</span></h3><p>To help designers find the color that is inside their mind. Facilitate designers to design a more beautiful UI interface.</p>
+<h3><span id="background">Background</span></h3><p>For the designers who are not familiar with the colours code, it is hard to design and develop the website or application interface without a sample of colour code. Many people who do not know much about design and have not studied systematically find it difficult to use the right color combinations to make good-looking UI designs.</p>
+<p>In order to help designers and developers to find the colours they want, this website will provide both code and the sample of the colours.</p>
+<h3><span id="methods">Methods</span></h3><p>The website will have an option where it displays different types of colors and the user can come and choose which color fits him best.</p>
+<h3><span id="expected-result">Expected Result</span></h3><p>The designer finds the colors for their needs</p>
+<h3><span id="implementation">Implementation</span></h3><ul>
+<li>Figma</li>
+<li>HTML and CSS with Bootstrap framework</li>
+</ul>
+<h3><span id="reference">Reference</span></h3><p><a class="link" href="https://www.color-hex.com/">https://www.color-hex.com/<i class="fas fa-external-link-alt"></i></a></p>
+<p><a class="link" href="https://htmlcolorcodes.com/">https://htmlcolorcodes.com/<i class="fas fa-external-link-alt"></i></a></p>
+]]></content>
+      <categories>
+        <category>UIUX</category>
+      </categories>
+      <tags>
+        <tag>UIUX</tag>
       </tags>
   </entry>
   <entry>
