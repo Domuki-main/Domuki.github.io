@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="Domuki">
+    
+    <title>
+        
+            Introduction Of MySQL |
+        
+        Domuki&#39;s Site
+    </title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/images/domukiico.ico">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {};
+    KEEP.hexo_config = {"hostname":"domuki.top","root":"/","language":"en","path":"search.xml"};
+    KEEP.theme_config = {"toc":{"enable":true,"number":false,"expand_all":true,"init_open":false},"style":{"primary_color":"#0066CC","avatar":"/images/domukipfp.jpeg","favicon":"/images/domukiico.ico","article_img_align":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":false,"scale":false},"first_screen":{"enable":true,"background_img":"/images/bg.svg","description":"SSE3307 Group 1 - 201464 E-Portfolio"},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":false}}},"local_search":{"enable":true,"preload":true},"code_copy":{"enable":true,"style":"default"},"pjax":{"enable":false},"lazyload":{"enable":false},"version":"3.4.1"};
+    KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
+  </script>
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            <header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            <a class="logo-title" href="/">
+                Domuki&#39;s Site
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                HOME
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                ARCHIVES
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >
+                                CATEGORIES
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/tags"
+                            >
+                                TAGS
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/music"
+                            >
+                                MUSIC
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/about"
+                            >
+                                ABOUT
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">HOME</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives">ARCHIVES</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories">CATEGORIES</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/tags">TAGS</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/music">MUSIC</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/about">ABOUT</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="article-content-container">
+
+        <div class="article-title">
+            <span class="title-hover-animation">Introduction Of MySQL</span>
+        </div>
+
+        
+            <div class="article-header">
+                <div class="avatar">
+                    <img src="/images/domukipfp.jpeg">
+                </div>
+                <div class="info">
+                    <div class="author">
+                        <span class="name">Domuki</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fas fa-edit"></i>&nbsp;2021-06-12 16:57:18
+    </span>
+    
+        <span class="article-categories article-meta-item">
+            <i class="fas fa-folder"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/categories/Database/">Database</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fas fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/Database/">Database</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/MySQL/">MySQL</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fas fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="article-content markdown-body">
+            <h1><span id="databases-and-mysql">Databases and MySQL</span></h1><h2><span id="structured-query-language">Structured Query Language</span></h2><p>the language that we use to issue commands to the database</p>
+<ul>
+<li>Create/Insert</li>
+<li>Read/Select</li>
+<li>Update</li>
+<li>Delete</li>
+</ul>
+<h2><span id="terminology">Terminology</span></h2><h3><span id="database">Database</span></h3><p>Contains one or more tables</p>
+<h3><span id="table-or-relation">Table (or relation)</span></h3><p>contains tuples (row) and attributes (column/field)</p>
+<h3><span id="tuple">Tuple</span></h3><p>a set of fields which generally represent an “object” like a person or a music track</p>
+<h3><span id="attribute">Attribute</span></h3><p>one of possibly many elements of data corresponding to the object represented by the row</p>
+<h2><span id="common-dbsm">Common DBSM</span></h2><ul>
+<li><p>Oracle</p>
+<p>Large, commercial, enterprise-scale, very tweakable</p>
+<ul>
+<li><p>MySQL</p>
+<p>Simpler but very fast and scalable - commercial open source</p>
+</li>
+<li><p>SqlServer</p>
+<p>Very nice - from Microsoft (also Access)</p>
+</li>
+</ul>
+</li>
+</ul>
+<h1><span id="basic-sql-operations">Basic SQL Operations</span></h1><h2><span id="command-line">Command Line</span></h2><ul>
+<li><p>Macintosh</p>
+<p><code>/Applications/MAMP/Library/bin/mysql --host=localhost -uroot –p</code></p>
+<p>Enter “root” when prompted for the password</p>
+</li>
+<li><p>Windows</p>
+<p><code>c:\xampp\mysql\bin\mysql.exe -u root –p</code></p>
+<p>Press enter when prompted for password</p>
+</li>
+</ul>
+<h3><span id="show-database">Show Database</span></h3><p>the function to print out the content of the database.</p>
+<h3><span id="create-database">Create Database</span></h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> DATABASE student;</span><br><span class="line">USE student;</span><br></pre></td></tr></table></figure>
+
+<p>to create new database</p>
+<h3><span id="create-table">Create Table</span></h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> Users( </span><br><span class="line">  name <span class="type">VARCHAR</span>(<span class="number">128</span>), </span><br><span class="line">  email <span class="type">VARCHAR</span>(<span class="number">128</span>)</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="keyword">DESCRIBE</span> Users;</span><br></pre></td></tr></table></figure>
+
+<p>to create a new table</p>
+<h3><span id="drop-table">Drop Table</span></h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> Users;</span><br></pre></td></tr></table></figure>
+
+<h3><span id="insert-row">Insert Row</span></h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> Users (name, email) <span class="keyword">VALUES</span> (<span class="string">&#x27;Chuck&#x27;</span>, <span class="string">&#x27;csev@umich.edu&#x27;</span>) ;</span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> Users (name, email) <span class="keyword">VALUES</span> (<span class="string">&#x27;Somesh&#x27;</span>, <span class="string">&#x27;somesh@umich.edu&#x27;</span>) ;</span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> Users (name, email) <span class="keyword">VALUES</span> (<span class="string">&#x27;Caitlin&#x27;</span>, <span class="string">&#x27;cait@umich.edu&#x27;</span>) ;</span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> Users (name, email) <span class="keyword">VALUES</span> (<span class="string">&#x27;Ted&#x27;</span>, <span class="string">&#x27;ted@umich.edu&#x27;</span>) ;</span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> Users (name, email) <span class="keyword">VALUES</span> (<span class="string">&#x27;Sally&#x27;</span>, <span class="string">&#x27;sally@umich.edu&#x27;</span>) ;</span><br></pre></td></tr></table></figure>
+
+<p>The INSERT statement inserts a row into a table</p>
+<h3><span id="delete-row">Delete Row</span></h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">DELETE</span> <span class="keyword">FROM</span> Users <span class="keyword">WHERE</span> email<span class="operator">=</span><span class="string">&#x27;ted@umich.edu&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<p>Deletes a row in a table based on selection criteria</p>
+<h3><span id="update-row">Update Row</span></h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">UPDATE Users <span class="keyword">SET</span> name<span class="operator">=</span><span class="string">&#x27;Charles&#x27;</span> <span class="keyword">WHERE</span> email<span class="operator">=</span><span class="string">&#x27;csev@umich.edu&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<p>Allows the updating of a field with a WHERE clause</p>
+<h3><span id="select-row">Select Row</span></h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> Users</span><br><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> Users <span class="keyword">WHERE</span> email<span class="operator">=</span><span class="string">&#x27;csev@umich.edu&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<p>Retrieves a group of records - you can either retrieve all the records or a subset of the records with a WHERE clause</p>
+<h3><span id="order-by">Order By</span></h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> Users <span class="keyword">ORDER</span> <span class="keyword">BY</span> email <span class="keyword">ASC</span>;</span><br><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> Users <span class="keyword">ORDER</span> <span class="keyword">BY</span> email <span class="keyword">DESC</span>;</span><br></pre></td></tr></table></figure>
+
+<p>You can add an ORDER BY clause to SELECT statements to get the results sorted in ascending or descending order</p>
+<h3><span id="like">like</span></h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> Users <span class="keyword">WHERE</span> name <span class="keyword">LIKE</span> <span class="string">&#x27;%e%&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<p>We can do wildcard matching in a WHERE clause using the LIKE operator</p>
+<h3><span id="limit">Limit</span></h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> Users <span class="keyword">ORDER</span> <span class="keyword">BY</span> email <span class="keyword">DESC</span> LIMIT <span class="number">2</span>;</span><br><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> Users <span class="keyword">ORDER</span> <span class="keyword">BY</span> email LIMIT <span class="number">1</span>,<span class="number">2</span>;</span><br></pre></td></tr></table></figure>
+
+<p><code>LIMIT 2</code> is same as <code>LIMIT 0,2</code></p>
+<p><code>LIMIT n,m</code> ‘n’ means the select begin from n index in table; ‘m’ means how many number of rows will be selected after n index.</p>
+<h3><span id="count">Count()</span></h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="built_in">COUNT</span>(<span class="operator">*</span>) <span class="keyword">FROM</span> Users;</span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">COUNT</span>(<span class="operator">*</span>) <span class="keyword">FROM</span> Users <span class="keyword">WHERE</span> email<span class="operator">=</span><span class="string">&#x27;csev@umich.edu&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<p>return the number of selected items</p>
+<h2><span id="data-types">Data Types</span></h2><h3><span id="string-fields">String Fields</span></h3><ul>
+<li>CHAR allocates the entire space (faster for small strings where length is known)</li>
+<li>VARCHAR allocates a variable amount of space depending on the data length (less space)</li>
+</ul>
+<h3><span id="text-fields">Text Fields</span></h3><ul>
+<li> TINYTEXT up to 255 characters</li>
+<li> TEXT up to 65K</li>
+<li> MEDIUMTEXT up to 16M</li>
+<li> LONGTEXT up to 4G</li>
+</ul>
+<h3><span id="binary-types">Binary Types</span></h3><ul>
+<li>BYTE(n) up to 255 bytes</li>
+<li>VARBINARY(n) up to 65K bytes</li>
+</ul>
+<h3><span id="binary-large-object">Binary Large Object</span></h3><ul>
+<li>TINYBLOB(n) - up to 255</li>
+<li>BLOB(n) - up to 65K</li>
+<li>MEDIUMBLOB(n) - up to 16M</li>
+<li>LONGBLOB(n) - up to 4G</li>
+</ul>
+<h3><span id="integer-numbers">Integer Numbers</span></h3><ul>
+<li> TINYINT (-128, 128)</li>
+<li> SMALLINT (-32768, +32768)</li>
+<li> INT or INTEGER (2 Billion)</li>
+<li> BIGINT - (10**18 ish)</li>
+</ul>
+<h3><span id="floating-point-numbers">Floating Point Numbers</span></h3><ul>
+<li> FLOAT (32-bit) 10**38 with seven digits of accuracy</li>
+<li> DOUBLE (64-bit) 10**308 with 14 digits of accuracy</li>
+</ul>
+<h3><span id="dates">Dates</span></h3><ul>
+<li>TIMESTAMP - ‘YYYY-MM-DD HH:MM:SS’ (1970, 2037)</li>
+<li>DATETIME - ‘YYYY-MM-DD HH:MM:SS’</li>
+<li>DATE - ‘YYYY-MM-DD’</li>
+<li>TIME - ‘HH:MM:SS’</li>
+</ul>
+
+        </div>
+
+        
+            <div class="post-copyright-info">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li>Post title：Introduction Of MySQL</li>
+        <li>Post author：Domuki</li>
+        <li>Create time：2021-06-12 16:57:18</li>
+        <li>
+            Post link：https://domuki.top/2021/06/12/Introduction-Of-MySQL/
+        </li>
+        <li>
+            Copyright Notice：All articles in this blog are licensed under <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> unless stating additionally.
+        </li>
+    </ul>
+</div>
+
+            </div>
+        
+
+        
+            <div class="article-nav">
+                
+                
+                    <div class="article-next">
+                        <a class="next"
+                           rel="next"
+                           href="/2021/05/18/Get-started-with-JUnit-5/"
+                        >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">Get started with JUnit 5</span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                            <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            <footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+              <span>2020</span>&nbsp;-&nbsp;
+            
+            2021&nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;<a href="/">Domuki</a>
+        </div>
+        
+            <script async  src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <div class="website-count info-item">
+                
+                    <span id="busuanzi_container_site_uv">
+                        Visitor Count&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv">
+                        Totalview&nbsp;<span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item page-aside-toggle">
+                <i class="fas fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-expand-width flex-center">
+            <i class="fas fa-arrows-alt-h"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="fas fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    
+        <aside class="page-aside">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-text">Databases and MySQL</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-text">Structured Query Language</span></a></li><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-text">Terminology</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-text">Database</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-text">Table (or relation)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-text">Tuple</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-text">Attribute</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-text">Common DBSM</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-text">Basic SQL Operations</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-text">Command Line</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-text">Show Database</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-text">Create Database</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-text">Create Table</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-text">Drop Table</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-text">Insert Row</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-text">Delete Row</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-text">Update Row</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-text">Select Row</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-text">Order By</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-text">like</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-text">Limit</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-text">Count()</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-text">Data Types</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-text">String Fields</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-text">Text Fields</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-text">Binary Types</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-text">Binary Large Object</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-text">Integer Numbers</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-text">Floating Point Numbers</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-text">Dates</span></a></li></ol></li></ol></li></ol>
+    </div>
+</div>
+        </aside>
+    
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="Search..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="popup-btn-close">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+<script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/header-shrink.js"></script><script src="/js/back2top.js"></script><script src="/js/dark-light-toggle.js"></script>
+
+
+    <script src="/js/local-search.js"></script>
+
+
+
+    <script src="/js/code-copy.js"></script>
+
+
+
+
+<div class="post-scripts">
+    
+        <script src="/js/left-side-toggle.js"></script><script src="/js/libs/anime.min.js"></script><script src="/js/toc.js"></script>
+    
+</div>
+
+
+
+</body>
+</html>
