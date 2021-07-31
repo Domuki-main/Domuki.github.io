@@ -106,25 +106,33 @@
 
   <main>
 
-      <div class="blog-post">
-
-    <!-- Title -->
-    <h2 class="blog-post-title">
-        <a href="/2020/02/20/JP2-L2/">
-            Java Programming 2 Lab2
-        </a>
-    </h2>
-
-    <!-- Date and Author -->
-    <p class="blog-post-meta">
+      <div class="container">
+  <div class="row mt-5 mb-5">
+    <div class="col-2"></div>
+    <div class="col-8 text-center">
+      <!-- Title -->
+      <h2 class="pb-3 display-2">
+        Java Programming 2 Lab2
+      </h2>
+      <!-- Date and Author -->
+      <p class="lead" style="font-size: 30px;">
         2020-02-20
         
-            by Domuki
+        by Domuki
         
-    </p>
+      </p>
+    </div>
+    <div class="col-2"></div>
+  </div>
+</div>
 
-    <!-- Content -->
-    <h2><span id="question-1">Question 1</span></h2><p>The <strong>InventoryItem</strong> class holds simple data about an item in an inventory. A description of the item is stored in the description field and the number of units on hand is stored in the units field. The figure below shows the UML diagram for the class</p>
+<div class="container blog-content">
+  <div class="row">
+    <div class="col-1"></div>
+    <div class="col-10">
+
+      <!-- Content -->
+      <h2><span id="question-1">Question 1</span></h2><p>The <strong>InventoryItem</strong> class holds simple data about an item in an inventory. A description of the item is stored in the description field and the number of units on hand is stored in the units field. The figure below shows the UML diagram for the class</p>
 <span id="more"></span>
 
 <p><img src="/2020/02/20/JP2-L2/001.png"></p>
@@ -195,25 +203,27 @@
 <p>For <em>CashRegister</em> data: quantity is 5.</p>
 
 
-    <hr />
-
-    <!-- Tags and Categories links -->
-    
-
-<div class="blog-tags-container">
-    <span class="glyphicon glyphicon-tags"></span>
-    <a href="/tags/Java/">#Java</a> <a href="/tags/Lab/">#Lab</a>
+    </div>
+    <div class="col-1"></div>
+  </div>
 </div>
 
+<div class="container-fluid p-md-3 mt-5 text-center bg-secondary">
+  <!-- Tags and Categories links -->
+  
 
-    layout/_partial/article-categories.ejs
+<!--<div class="blog-tags-container">
+    <span class="glyphicon glyphicon-tags"></span>-->
+    <a href="/tags/Java/" class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">#Java</a> <a href="/tags/Lab/" class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">#Lab</a>
+<!--</div>-->
 
 
-<div class="blog-categories-container">
-    <span class="glyphicon glyphicon-folder-open"></span>
-    <a href="/categories/Programming-Lab/">Programming Lab</a>
-</div>
+  
 
+<!--<div class="blog-categories-container">
+    <span class="glyphicon glyphicon-folder-open"></span>-->
+    <a href="/categories/Programming-Lab/"class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">Programming Lab</a>
+<!--</div>-->
 
 
 </div>
@@ -221,7 +231,7 @@
 
       <!--The body variable corresponds to the content rendered from the different page type templates (cf above).-->
 
-</main>
+  </main>
 
   <!-- Footer -->
   <footer class="text-white-50 bg-dark py-5">

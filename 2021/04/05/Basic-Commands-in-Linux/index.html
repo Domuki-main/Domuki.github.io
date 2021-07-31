@@ -106,25 +106,33 @@
 
   <main>
 
-      <div class="blog-post">
-
-    <!-- Title -->
-    <h2 class="blog-post-title">
-        <a href="/2021/04/05/Basic-Commands-in-Linux/">
-            Basic Commands in Linux
-        </a>
-    </h2>
-
-    <!-- Date and Author -->
-    <p class="blog-post-meta">
+      <div class="container">
+  <div class="row mt-5 mb-5">
+    <div class="col-2"></div>
+    <div class="col-8 text-center">
+      <!-- Title -->
+      <h2 class="pb-3 display-2">
+        Basic Commands in Linux
+      </h2>
+      <!-- Date and Author -->
+      <p class="lead" style="font-size: 30px;">
         2021-04-05
         
-            by Domuki
+        by Domuki
         
-    </p>
+      </p>
+    </div>
+    <div class="col-2"></div>
+  </div>
+</div>
 
-    <!-- Content -->
-    <p><em><strong>whoiam</strong></em> to identify the user</p>
+<div class="container blog-content">
+  <div class="row">
+    <div class="col-1"></div>
+    <div class="col-10">
+
+      <!-- Content -->
+      <p><em><strong>whoiam</strong></em> to identify the user</p>
 <p><em><strong>pwd</strong></em> to show what dir are you in</p>
 <p><em><strong>touch a.txt</strong></em> Create a file named ‘a.txt’ in the current directory</p>
 <span id="more"></span>
@@ -164,25 +172,27 @@
 <p><em><strong>–help</strong></em> <em>can give a quick usage summary but <strong>man</strong> pages are usually much more detailed, better formatted</em></p>
 
 
-    <hr />
-
-    <!-- Tags and Categories links -->
-    
-
-<div class="blog-tags-container">
-    <span class="glyphicon glyphicon-tags"></span>
-    <a href="/tags/CMD/">#CMD</a>
+    </div>
+    <div class="col-1"></div>
+  </div>
 </div>
 
+<div class="container-fluid p-md-3 mt-5 text-center bg-secondary">
+  <!-- Tags and Categories links -->
+  
 
-    layout/_partial/article-categories.ejs
+<!--<div class="blog-tags-container">
+    <span class="glyphicon glyphicon-tags"></span>-->
+    <a href="/tags/CMD/" class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">#CMD</a>
+<!--</div>-->
 
 
-<div class="blog-categories-container">
-    <span class="glyphicon glyphicon-folder-open"></span>
-    <a href="/categories/Operating-System/">Operating System</a>
-</div>
+  
 
+<!--<div class="blog-categories-container">
+    <span class="glyphicon glyphicon-folder-open"></span>-->
+    <a href="/categories/Operating-System/"class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">Operating System</a>
+<!--</div>-->
 
 
 </div>
@@ -190,7 +200,7 @@
 
       <!--The body variable corresponds to the content rendered from the different page type templates (cf above).-->
 
-</main>
+  </main>
 
   <!-- Footer -->
   <footer class="text-white-50 bg-dark py-5">

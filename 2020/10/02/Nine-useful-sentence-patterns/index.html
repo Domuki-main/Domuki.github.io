@@ -106,25 +106,33 @@
 
   <main>
 
-      <div class="blog-post">
-
-    <!-- Title -->
-    <h2 class="blog-post-title">
-        <a href="/2020/10/02/Nine-useful-sentence-patterns/">
-            Nine useful sentence patterns
-        </a>
-    </h2>
-
-    <!-- Date and Author -->
-    <p class="blog-post-meta">
+      <div class="container">
+  <div class="row mt-5 mb-5">
+    <div class="col-2"></div>
+    <div class="col-8 text-center">
+      <!-- Title -->
+      <h2 class="pb-3 display-2">
+        Nine useful sentence patterns
+      </h2>
+      <!-- Date and Author -->
+      <p class="lead" style="font-size: 30px;">
         2020-10-02
         
-            by Domuki
+        by Domuki
         
-    </p>
+      </p>
+    </div>
+    <div class="col-2"></div>
+  </div>
+</div>
 
-    <!-- Content -->
-    <h2><span id="1-use-participle-phrases-as-adverbials"><strong>1. Use participle phrases as adverbials</strong></span></h2><ul>
+<div class="container blog-content">
+  <div class="row">
+    <div class="col-1"></div>
+    <div class="col-10">
+
+      <!-- Content -->
+      <h2><span id="1-use-participle-phrases-as-adverbials"><strong>1. Use participle phrases as adverbials</strong></span></h2><ul>
 <li><strong>Same subjects</strong></li>
 </ul>
 <blockquote>
@@ -243,25 +251,27 @@
 </blockquote>
 
 
-    <hr />
-
-    <!-- Tags and Categories links -->
-    
-
-<div class="blog-tags-container">
-    <span class="glyphicon glyphicon-tags"></span>
-    <a href="/tags/English/">#English</a> <a href="/tags/Writing/">#Writing</a>
+    </div>
+    <div class="col-1"></div>
+  </div>
 </div>
 
+<div class="container-fluid p-md-3 mt-5 text-center bg-secondary">
+  <!-- Tags and Categories links -->
+  
 
-    layout/_partial/article-categories.ejs
+<!--<div class="blog-tags-container">
+    <span class="glyphicon glyphicon-tags"></span>-->
+    <a href="/tags/English/" class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">#English</a> <a href="/tags/Writing/" class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">#Writing</a>
+<!--</div>-->
 
 
-<div class="blog-categories-container">
-    <span class="glyphicon glyphicon-folder-open"></span>
-    <a href="/categories/Language-Learning/">Language Learning</a>
-</div>
+  
 
+<!--<div class="blog-categories-container">
+    <span class="glyphicon glyphicon-folder-open"></span>-->
+    <a href="/categories/Language-Learning/"class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">Language Learning</a>
+<!--</div>-->
 
 
 </div>
@@ -269,7 +279,7 @@
 
       <!--The body variable corresponds to the content rendered from the different page type templates (cf above).-->
 
-</main>
+  </main>
 
   <!-- Footer -->
   <footer class="text-white-50 bg-dark py-5">

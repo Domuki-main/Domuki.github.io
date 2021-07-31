@@ -106,23 +106,31 @@
 
   <main>
 
-      <div class="blog-post">
-
-    <!-- Title -->
-    <h2 class="blog-post-title">
-        <a href="/2020/10/07/PracticalAI-Notes-1-The-Notebooks/">
-            PracticalAI Notes 1: The Notebooks
-        </a>
-    </h2>
-
-    <!-- Date and Author -->
-    <p class="blog-post-meta">
+      <div class="container">
+  <div class="row mt-5 mb-5">
+    <div class="col-2"></div>
+    <div class="col-8 text-center">
+      <!-- Title -->
+      <h2 class="pb-3 display-2">
+        PracticalAI Notes 1: The Notebooks
+      </h2>
+      <!-- Date and Author -->
+      <p class="lead" style="font-size: 30px;">
         2020-10-07
         
-    </p>
+      </p>
+    </div>
+    <div class="col-2"></div>
+  </div>
+</div>
 
-    <!-- Content -->
-    <h4><span id="introduction-of-practicalai">Introduction of <em>PracticalAI</em></span></h4><p><em>PracticalAI</em> is a totally free project or tutorial based on Google Cloud of deep learning  on GitHub platform.</p>
+<div class="container blog-content">
+  <div class="row">
+    <div class="col-1"></div>
+    <div class="col-10">
+
+      <!-- Content -->
+      <h4><span id="introduction-of-practicalai">Introduction of <em>PracticalAI</em></span></h4><p><em>PracticalAI</em> is a totally free project or tutorial based on Google Cloud of deep learning  on GitHub platform.</p>
 <span id="more"></span>
 
 <h2><span id="preparation">Preparation</span></h2><h3><span id="1-download">1. Download</span></h3><p>Click the <a target="_blank" rel="noopener" href="https://github.com/kleincup/practicalAI">LINK</a>, then download the <code>.zip</code> on GitHub.</p>
@@ -151,25 +159,27 @@
 <h4><span id="saving">Saving</span></h4><p>Press <strong>Ctrl + S</strong></p>
 
 
-    <hr />
-
-    <!-- Tags and Categories links -->
-    
-
-<div class="blog-tags-container">
-    <span class="glyphicon glyphicon-tags"></span>
-    <a href="/tags/Python/">#Python</a> <a href="/tags/AI/">#AI</a> <a href="/tags/PracticalAI/">#PracticalAI</a>
+    </div>
+    <div class="col-1"></div>
+  </div>
 </div>
 
+<div class="container-fluid p-md-3 mt-5 text-center bg-secondary">
+  <!-- Tags and Categories links -->
+  
 
-    layout/_partial/article-categories.ejs
+<!--<div class="blog-tags-container">
+    <span class="glyphicon glyphicon-tags"></span>-->
+    <a href="/tags/Python/" class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">#Python</a> <a href="/tags/AI/" class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">#AI</a> <a href="/tags/PracticalAI/" class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">#PracticalAI</a>
+<!--</div>-->
 
 
-<div class="blog-categories-container">
-    <span class="glyphicon glyphicon-folder-open"></span>
-    <a href="/categories/Artificial-Intelligence/">Artificial Intelligence</a>
-</div>
+  
 
+<!--<div class="blog-categories-container">
+    <span class="glyphicon glyphicon-folder-open"></span>-->
+    <a href="/categories/Artificial-Intelligence/"class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">Artificial Intelligence</a>
+<!--</div>-->
 
 
 </div>
@@ -177,7 +187,7 @@
 
       <!--The body variable corresponds to the content rendered from the different page type templates (cf above).-->
 
-</main>
+  </main>
 
   <!-- Footer -->
   <footer class="text-white-50 bg-dark py-5">

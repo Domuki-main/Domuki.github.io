@@ -106,25 +106,33 @@
 
   <main>
 
-      <div class="blog-post">
-
-    <!-- Title -->
-    <h2 class="blog-post-title">
-        <a href="/2020/03/08/Jp2-L2-2/">
-            Java Programming 2 Lab 2 Additional File
-        </a>
-    </h2>
-
-    <!-- Date and Author -->
-    <p class="blog-post-meta">
+      <div class="container">
+  <div class="row mt-5 mb-5">
+    <div class="col-2"></div>
+    <div class="col-8 text-center">
+      <!-- Title -->
+      <h2 class="pb-3 display-2">
+        Java Programming 2 Lab 2 Additional File
+      </h2>
+      <!-- Date and Author -->
+      <p class="lead" style="font-size: 30px;">
         2020-03-08
         
-            by Domuki
+        by Domuki
         
-    </p>
+      </p>
+    </div>
+    <div class="col-2"></div>
+  </div>
+</div>
 
-    <!-- Content -->
-    <h2><span id="question">Question</span></h2><p>Use the frame and knowledge professor taught to create 3 class which includes “Student”, “Course” and “Address” used to store Student’s information.</p>
+<div class="container blog-content">
+  <div class="row">
+    <div class="col-1"></div>
+    <div class="col-10">
+
+      <!-- Content -->
+      <h2><span id="question">Question</span></h2><p>Use the frame and knowledge professor taught to create 3 class which includes “Student”, “Course” and “Address” used to store Student’s information.</p>
 <span id="more"></span>
 
 <h2><span id="solution">Solution</span></h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Address</span> </span>&#123;</span><br><span class="line">	<span class="comment">//list of variables</span></span><br><span class="line">	<span class="keyword">private</span> String line1, line2, postcode, city, country;</span><br><span class="line">	</span><br><span class="line">	<span class="comment">/**</span></span><br><span class="line"><span class="comment">	 * constructor</span></span><br><span class="line"><span class="comment">	 * <span class="doctag">@param</span> line1 first line of the address</span></span><br><span class="line"><span class="comment">	 * <span class="doctag">@param</span> line2 second line of the address</span></span><br><span class="line"><span class="comment">	 * <span class="doctag">@param</span> postcode postal code</span></span><br><span class="line"><span class="comment">	 * <span class="doctag">@param</span> city state name</span></span><br><span class="line"><span class="comment">	 * <span class="doctag">@param</span> country country name</span></span><br><span class="line"><span class="comment">	 */</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="title">Address</span><span class="params">(String line1, String line2, String postcode, String city, String country)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">this</span>.line1 = line1;</span><br><span class="line">		<span class="keyword">this</span>.line2 = line2;</span><br><span class="line">		<span class="keyword">this</span>.postcode = postcode;</span><br><span class="line">		<span class="keyword">this</span>.city = city;</span><br><span class="line">		<span class="keyword">this</span>.country = country;</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	<span class="function"><span class="keyword">public</span> String <span class="title">toString</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		<span class="keyword">return</span> line1 + <span class="string">&quot;\n&quot;</span> + line2 + <span class="string">&quot;\n&quot;</span> + postcode + <span class="string">&quot; \n&quot;</span>  + city + <span class="string">&quot;\n&quot;</span>  + country;   </span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -137,25 +145,27 @@
 
 
 
-    <hr />
-
-    <!-- Tags and Categories links -->
-    
-
-<div class="blog-tags-container">
-    <span class="glyphicon glyphicon-tags"></span>
-    <a href="/tags/Java/">#Java</a> <a href="/tags/Lab/">#Lab</a>
+    </div>
+    <div class="col-1"></div>
+  </div>
 </div>
 
+<div class="container-fluid p-md-3 mt-5 text-center bg-secondary">
+  <!-- Tags and Categories links -->
+  
 
-    layout/_partial/article-categories.ejs
+<!--<div class="blog-tags-container">
+    <span class="glyphicon glyphicon-tags"></span>-->
+    <a href="/tags/Java/" class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">#Java</a> <a href="/tags/Lab/" class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">#Lab</a>
+<!--</div>-->
 
 
-<div class="blog-categories-container">
-    <span class="glyphicon glyphicon-folder-open"></span>
-    <a href="/categories/Programming-Lab/">Programming Lab</a>
-</div>
+  
 
+<!--<div class="blog-categories-container">
+    <span class="glyphicon glyphicon-folder-open"></span>-->
+    <a href="/categories/Programming-Lab/"class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">Programming Lab</a>
+<!--</div>-->
 
 
 </div>
@@ -163,7 +173,7 @@
 
       <!--The body variable corresponds to the content rendered from the different page type templates (cf above).-->
 
-</main>
+  </main>
 
   <!-- Footer -->
   <footer class="text-white-50 bg-dark py-5">

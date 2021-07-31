@@ -106,25 +106,33 @@
 
   <main>
 
-      <div class="blog-post">
-
-    <!-- Title -->
-    <h2 class="blog-post-title">
-        <a href="/2020/03/07/Jp2-L1-2/">
-            Java Programming 2 Lab 1 Additional File
-        </a>
-    </h2>
-
-    <!-- Date and Author -->
-    <p class="blog-post-meta">
+      <div class="container">
+  <div class="row mt-5 mb-5">
+    <div class="col-2"></div>
+    <div class="col-8 text-center">
+      <!-- Title -->
+      <h2 class="pb-3 display-2">
+        Java Programming 2 Lab 1 Additional File
+      </h2>
+      <!-- Date and Author -->
+      <p class="lead" style="font-size: 30px;">
         2020-03-07
         
-            by Domuki
+        by Domuki
         
-    </p>
+      </p>
+    </div>
+    <div class="col-2"></div>
+  </div>
+</div>
 
-    <!-- Content -->
-    <h2><span id="the-question">The Question</span></h2><p>This question is from textbook page 351- Figure 9.6</p>
+<div class="container blog-content">
+  <div class="row">
+    <div class="col-1"></div>
+    <div class="col-10">
+
+      <!-- Content -->
+      <h2><span id="the-question">The Question</span></h2><p>This question is from textbook page 351- Figure 9.6</p>
 <span id="more"></span>
 
 <img src="/2020/03/07/Jp2-L1-2/001.png" style="zoom:50%;">
@@ -136,25 +144,27 @@
 
 
 
-    <hr />
-
-    <!-- Tags and Categories links -->
-    
-
-<div class="blog-tags-container">
-    <span class="glyphicon glyphicon-tags"></span>
-    <a href="/tags/Java/">#Java</a> <a href="/tags/Lab/">#Lab</a>
+    </div>
+    <div class="col-1"></div>
+  </div>
 </div>
 
+<div class="container-fluid p-md-3 mt-5 text-center bg-secondary">
+  <!-- Tags and Categories links -->
+  
 
-    layout/_partial/article-categories.ejs
+<!--<div class="blog-tags-container">
+    <span class="glyphicon glyphicon-tags"></span>-->
+    <a href="/tags/Java/" class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">#Java</a> <a href="/tags/Lab/" class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">#Lab</a>
+<!--</div>-->
 
 
-<div class="blog-categories-container">
-    <span class="glyphicon glyphicon-folder-open"></span>
-    <a href="/categories/Programming-Lab/">Programming Lab</a>
-</div>
+  
 
+<!--<div class="blog-categories-container">
+    <span class="glyphicon glyphicon-folder-open"></span>-->
+    <a href="/categories/Programming-Lab/"class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">Programming Lab</a>
+<!--</div>-->
 
 
 </div>
@@ -162,7 +172,7 @@
 
       <!--The body variable corresponds to the content rendered from the different page type templates (cf above).-->
 
-</main>
+  </main>
 
   <!-- Footer -->
   <footer class="text-white-50 bg-dark py-5">

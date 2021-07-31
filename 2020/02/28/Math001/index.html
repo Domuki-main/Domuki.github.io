@@ -106,25 +106,33 @@
 
   <main>
 
-      <div class="blog-post">
-
-    <!-- Title -->
-    <h2 class="blog-post-title">
-        <a href="/2020/02/28/Math001/">
-            How to draw a Box Plot
-        </a>
-    </h2>
-
-    <!-- Date and Author -->
-    <p class="blog-post-meta">
+      <div class="container">
+  <div class="row mt-5 mb-5">
+    <div class="col-2"></div>
+    <div class="col-8 text-center">
+      <!-- Title -->
+      <h2 class="pb-3 display-2">
+        How to draw a Box Plot
+      </h2>
+      <!-- Date and Author -->
+      <p class="lead" style="font-size: 30px;">
         2020-02-28
         
-            by Domuki
+        by Domuki
         
-    </p>
+      </p>
+    </div>
+    <div class="col-2"></div>
+  </div>
+</div>
 
-    <!-- Content -->
-    <h2><span id="1-read-the-data-and-sort-numbers">1. Read the data and sort numbers</span></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">16	25	4	18	11	13	20	8	11	9 </span><br><span class="line">&#x2F;&#x2F; after sorting</span><br><span class="line">4	8	9	11	11	13	16	18	20	25</span><br></pre></td></tr></table></figure>
+<div class="container blog-content">
+  <div class="row">
+    <div class="col-1"></div>
+    <div class="col-10">
+
+      <!-- Content -->
+      <h2><span id="1-read-the-data-and-sort-numbers">1. Read the data and sort numbers</span></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">16	25	4	18	11	13	20	8	11	9 </span><br><span class="line">&#x2F;&#x2F; after sorting</span><br><span class="line">4	8	9	11	11	13	16	18	20	25</span><br></pre></td></tr></table></figure>
 
 <p>So from the information that we can get the maximum and minimum of this data(question).</p>
 <p><code>Max = 25</code> and <code>Min = 4</code></p>
@@ -164,25 +172,27 @@
 <p>UF = 33.125</p>
 <img src="/2020/02/28/Math001/002.png" style="zoom:60%;">
 
-    <hr />
-
-    <!-- Tags and Categories links -->
-    
-
-<div class="blog-tags-container">
-    <span class="glyphicon glyphicon-tags"></span>
-    <a href="/tags/Tips/">#Tips</a> <a href="/tags/Statistics/">#Statistics</a>
+    </div>
+    <div class="col-1"></div>
+  </div>
 </div>
 
+<div class="container-fluid p-md-3 mt-5 text-center bg-secondary">
+  <!-- Tags and Categories links -->
+  
 
-    layout/_partial/article-categories.ejs
+<!--<div class="blog-tags-container">
+    <span class="glyphicon glyphicon-tags"></span>-->
+    <a href="/tags/Tips/" class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">#Tips</a> <a href="/tags/Statistics/" class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">#Statistics</a>
+<!--</div>-->
 
 
-<div class="blog-categories-container">
-    <span class="glyphicon glyphicon-folder-open"></span>
-    <a href="/categories/Statistics-Study/">Statistics Study</a>
-</div>
+  
 
+<!--<div class="blog-categories-container">
+    <span class="glyphicon glyphicon-folder-open"></span>-->
+    <a href="/categories/Statistics-Study/"class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">Statistics Study</a>
+<!--</div>-->
 
 
 </div>
@@ -190,7 +200,7 @@
 
       <!--The body variable corresponds to the content rendered from the different page type templates (cf above).-->
 
-</main>
+  </main>
 
   <!-- Footer -->
   <footer class="text-white-50 bg-dark py-5">

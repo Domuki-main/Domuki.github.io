@@ -106,23 +106,31 @@
 
   <main>
 
-      <div class="blog-post">
-
-    <!-- Title -->
-    <h2 class="blog-post-title">
-        <a href="/2021/04/04/User-Interface-and-User-Experience-Week-1/">
-            User Interface and User Experience Week 1
-        </a>
-    </h2>
-
-    <!-- Date and Author -->
-    <p class="blog-post-meta">
+      <div class="container">
+  <div class="row mt-5 mb-5">
+    <div class="col-2"></div>
+    <div class="col-8 text-center">
+      <!-- Title -->
+      <h2 class="pb-3 display-2">
+        User Interface and User Experience Week 1
+      </h2>
+      <!-- Date and Author -->
+      <p class="lead" style="font-size: 30px;">
         2021-04-04
         
-    </p>
+      </p>
+    </div>
+    <div class="col-2"></div>
+  </div>
+</div>
 
-    <!-- Content -->
-    <h2><span id="abstract">Abstract</span></h2><p>As the beginning of the new term, this week we did the ice break in the meeting and learned the basic introduction of <strong>User Interface and User Experience</strong>.</p>
+<div class="container blog-content">
+  <div class="row">
+    <div class="col-1"></div>
+    <div class="col-10">
+
+      <!-- Content -->
+      <h2><span id="abstract">Abstract</span></h2><p>As the beginning of the new term, this week we did the ice break in the meeting and learned the basic introduction of <strong>User Interface and User Experience</strong>.</p>
 <span id="more"></span>
 
 <h2><span id="contents">Contents</span></h2><h3><span id="difference-between-ui-and-ux">Difference between UI and UX</span></h3><table>
@@ -180,25 +188,27 @@
 </ol>
 
 
-    <hr />
-
-    <!-- Tags and Categories links -->
-    
-
-<div class="blog-tags-container">
-    <span class="glyphicon glyphicon-tags"></span>
-    <a href="/tags/UIUX/">#UIUX</a>
+    </div>
+    <div class="col-1"></div>
+  </div>
 </div>
 
+<div class="container-fluid p-md-3 mt-5 text-center bg-secondary">
+  <!-- Tags and Categories links -->
+  
 
-    layout/_partial/article-categories.ejs
+<!--<div class="blog-tags-container">
+    <span class="glyphicon glyphicon-tags"></span>-->
+    <a href="/tags/UIUX/" class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">#UIUX</a>
+<!--</div>-->
 
 
-<div class="blog-categories-container">
-    <span class="glyphicon glyphicon-folder-open"></span>
-    <a href="/categories/UIUX/">UIUX</a>
-</div>
+  
 
+<!--<div class="blog-categories-container">
+    <span class="glyphicon glyphicon-folder-open"></span>-->
+    <a href="/categories/UIUX/"class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">UIUX</a>
+<!--</div>-->
 
 
 </div>
@@ -206,7 +216,7 @@
 
       <!--The body variable corresponds to the content rendered from the different page type templates (cf above).-->
 
-</main>
+  </main>
 
   <!-- Footer -->
   <footer class="text-white-50 bg-dark py-5">

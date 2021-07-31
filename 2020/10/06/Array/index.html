@@ -106,25 +106,33 @@
 
   <main>
 
-      <div class="blog-post">
-
-    <!-- Title -->
-    <h2 class="blog-post-title">
-        <a href="/2020/10/06/Array/">
-            Array
-        </a>
-    </h2>
-
-    <!-- Date and Author -->
-    <p class="blog-post-meta">
+      <div class="container">
+  <div class="row mt-5 mb-5">
+    <div class="col-2"></div>
+    <div class="col-8 text-center">
+      <!-- Title -->
+      <h2 class="pb-3 display-2">
+        Array
+      </h2>
+      <!-- Date and Author -->
+      <p class="lead" style="font-size: 30px;">
         2020-10-06
         
-            by Domuki
+        by Domuki
         
-    </p>
+      </p>
+    </div>
+    <div class="col-2"></div>
+  </div>
+</div>
 
-    <!-- Content -->
-    <h3><span id="understanding-arrays">Understanding Arrays</span></h3><blockquote>
+<div class="container blog-content">
+  <div class="row">
+    <div class="col-1"></div>
+    <div class="col-10">
+
+      <!-- Content -->
+      <h3><span id="understanding-arrays">Understanding Arrays</span></h3><blockquote>
 <p>In <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Computer_science">computer science</a>, an <strong>array data structure</strong>, or simply an <strong>array</strong>, is a <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Data_structure">data structure</a> consisting of a collection of <em>elements</em> (<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Value_(computer_science)">values</a> or <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Variable_(programming)">variables</a>), each identified by at least one <em>array index</em> or <em>key</em>.</p>
 </blockquote>
 <p>Simply, </p>
@@ -148,25 +156,27 @@
 <h4><span id="examples">Examples</span></h4><p>Java has built-in dynamic arrays. These are <a href="https://domuki.top/2020/04/23/Frequently-Used-Methods-of-Vector/">Vector</a>, <a href="https://domuki.top/2020/04/23/Frequently-Used-Methods-of-ArrayList/">ArrayList</a>, LinkedList and CopyOnWriteArrayList.</p>
 
 
-    <hr />
-
-    <!-- Tags and Categories links -->
-    
-
-<div class="blog-tags-container">
-    <span class="glyphicon glyphicon-tags"></span>
-    <a href="/tags/Java/">#Java</a> <a href="/tags/Data-Structure/">#Data Structure</a> <a href="/tags/Algorithm/">#Algorithm</a>
+    </div>
+    <div class="col-1"></div>
+  </div>
 </div>
 
+<div class="container-fluid p-md-3 mt-5 text-center bg-secondary">
+  <!-- Tags and Categories links -->
+  
 
-    layout/_partial/article-categories.ejs
+<!--<div class="blog-tags-container">
+    <span class="glyphicon glyphicon-tags"></span>-->
+    <a href="/tags/Java/" class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">#Java</a> <a href="/tags/Data-Structure/" class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">#Data Structure</a> <a href="/tags/Algorithm/" class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">#Algorithm</a>
+<!--</div>-->
 
 
-<div class="blog-categories-container">
-    <span class="glyphicon glyphicon-folder-open"></span>
-    <a href="/categories/Data-Structure-and-Algorithm/">Data Structure and Algorithm</a>
-</div>
+  
 
+<!--<div class="blog-categories-container">
+    <span class="glyphicon glyphicon-folder-open"></span>-->
+    <a href="/categories/Data-Structure-and-Algorithm/"class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">Data Structure and Algorithm</a>
+<!--</div>-->
 
 
 </div>
@@ -174,7 +184,7 @@
 
       <!--The body variable corresponds to the content rendered from the different page type templates (cf above).-->
 
-</main>
+  </main>
 
   <!-- Footer -->
   <footer class="text-white-50 bg-dark py-5">

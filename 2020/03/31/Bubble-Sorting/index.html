@@ -106,25 +106,33 @@
 
   <main>
 
-      <div class="blog-post">
-
-    <!-- Title -->
-    <h2 class="blog-post-title">
-        <a href="/2020/03/31/Bubble-Sorting/">
-            Bubble Sorting
-        </a>
-    </h2>
-
-    <!-- Date and Author -->
-    <p class="blog-post-meta">
+      <div class="container">
+  <div class="row mt-5 mb-5">
+    <div class="col-2"></div>
+    <div class="col-8 text-center">
+      <!-- Title -->
+      <h2 class="pb-3 display-2">
+        Bubble Sorting
+      </h2>
+      <!-- Date and Author -->
+      <p class="lead" style="font-size: 30px;">
         2020-03-31
         
-            by Domuki
+        by Domuki
         
-    </p>
+      </p>
+    </div>
+    <div class="col-2"></div>
+  </div>
+</div>
 
-    <!-- Content -->
-    <span id="more"></span>
+<div class="container blog-content">
+  <div class="row">
+    <div class="col-1"></div>
+    <div class="col-10">
+
+      <!-- Content -->
+      <span id="more"></span>
 
 <p>Main Method</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		</span><br><span class="line">	BubbleSorting bs = <span class="keyword">new</span> BubbleSorting();</span><br><span class="line">		</span><br><span class="line">	<span class="keyword">int</span>[] array = &#123;<span class="number">3</span>, <span class="number">5</span>, <span class="number">5</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">45</span>, <span class="number">6</span>, <span class="number">2</span>, <span class="number">1</span>, <span class="number">5</span>, <span class="number">4</span>, <span class="number">8</span>, <span class="number">4</span>, <span class="number">1</span>, <span class="number">63</span>, <span class="number">96</span>, <span class="number">54</span>, <span class="number">41</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">6</span>, <span class="number">54</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">63</span>, <span class="number">5</span>, <span class="number">54</span>&#125;;</span><br><span class="line">		</span><br><span class="line">	<span class="keyword">int</span>[] a1 = bs.bubbleSortingFromBigToSmall(array);</span><br><span class="line">		</span><br><span class="line">	<span class="keyword">int</span>[] a2 = bs.bubbleSortingFromSmallToBig(array);</span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line">	bs.print(array);</span><br><span class="line">		</span><br><span class="line">	bs.print(a1);</span><br><span class="line">		</span><br><span class="line">	bs.print(a2);</span><br><span class="line">		</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -134,25 +142,27 @@
 
 
 
-    <hr />
-
-    <!-- Tags and Categories links -->
-    
-
-<div class="blog-tags-container">
-    <span class="glyphicon glyphicon-tags"></span>
-    <a href="/tags/Java/">#Java</a> <a href="/tags/Algorithm/">#Algorithm</a> <a href="/tags/Tips/">#Tips</a>
+    </div>
+    <div class="col-1"></div>
+  </div>
 </div>
 
+<div class="container-fluid p-md-3 mt-5 text-center bg-secondary">
+  <!-- Tags and Categories links -->
+  
 
-    layout/_partial/article-categories.ejs
+<!--<div class="blog-tags-container">
+    <span class="glyphicon glyphicon-tags"></span>-->
+    <a href="/tags/Java/" class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">#Java</a> <a href="/tags/Algorithm/" class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">#Algorithm</a> <a href="/tags/Tips/" class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">#Tips</a>
+<!--</div>-->
 
 
-<div class="blog-categories-container">
-    <span class="glyphicon glyphicon-folder-open"></span>
-    <a href="/categories/Programming-Tips/">Programming Tips</a>
-</div>
+  
 
+<!--<div class="blog-categories-container">
+    <span class="glyphicon glyphicon-folder-open"></span>-->
+    <a href="/categories/Programming-Tips/"class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">Programming Tips</a>
+<!--</div>-->
 
 
 </div>
@@ -160,7 +170,7 @@
 
       <!--The body variable corresponds to the content rendered from the different page type templates (cf above).-->
 
-</main>
+  </main>
 
   <!-- Footer -->
   <footer class="text-white-50 bg-dark py-5">

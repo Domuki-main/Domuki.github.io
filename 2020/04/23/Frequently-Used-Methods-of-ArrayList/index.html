@@ -106,25 +106,33 @@
 
   <main>
 
-      <div class="blog-post">
-
-    <!-- Title -->
-    <h2 class="blog-post-title">
-        <a href="/2020/04/23/Frequently-Used-Methods-of-ArrayList/">
-            Frequently Used Methods of ArrayList
-        </a>
-    </h2>
-
-    <!-- Date and Author -->
-    <p class="blog-post-meta">
+      <div class="container">
+  <div class="row mt-5 mb-5">
+    <div class="col-2"></div>
+    <div class="col-8 text-center">
+      <!-- Title -->
+      <h2 class="pb-3 display-2">
+        Frequently Used Methods of ArrayList
+      </h2>
+      <!-- Date and Author -->
+      <p class="lead" style="font-size: 30px;">
         2020-04-23
         
-            by Domuki
+        by Domuki
         
-    </p>
+      </p>
+    </div>
+    <div class="col-2"></div>
+  </div>
+</div>
 
-    <!-- Content -->
-    <p>array’s length cannot be changed<br>but length of array list can be changed<br>we know ArrayList<e>, but what’s the meaning of <e>？<br>you can think it as the type of all data in array list.<br>creating:<br><code>ArrayList();</code><br>notice: for array list, you cannot get reference when you try to print it</e></e></p>
+<div class="container blog-content">
+  <div class="row">
+    <div class="col-1"></div>
+    <div class="col-10">
+
+      <!-- Content -->
+      <p>array’s length cannot be changed<br>but length of array list can be changed<br>we know ArrayList<e>, but what’s the meaning of <e>？<br>you can think it as the type of all data in array list.<br>creating:<br><code>ArrayList();</code><br>notice: for array list, you cannot get reference when you try to print it</e></e></p>
 <span id="more"></span>
 
 <h2><span id="1-creating">1. Creating</span></h2><p>creating is one of the most simple part which seems like calling class.</p>
@@ -154,25 +162,27 @@
 
 
 
-    <hr />
-
-    <!-- Tags and Categories links -->
-    
-
-<div class="blog-tags-container">
-    <span class="glyphicon glyphicon-tags"></span>
-    <a href="/tags/Java/">#Java</a> <a href="/tags/Tips/">#Tips</a>
+    </div>
+    <div class="col-1"></div>
+  </div>
 </div>
 
+<div class="container-fluid p-md-3 mt-5 text-center bg-secondary">
+  <!-- Tags and Categories links -->
+  
 
-    layout/_partial/article-categories.ejs
+<!--<div class="blog-tags-container">
+    <span class="glyphicon glyphicon-tags"></span>-->
+    <a href="/tags/Java/" class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">#Java</a> <a href="/tags/Tips/" class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">#Tips</a>
+<!--</div>-->
 
 
-<div class="blog-categories-container">
-    <span class="glyphicon glyphicon-folder-open"></span>
-    <a href="/categories/Programming-Tips/">Programming Tips</a>
-</div>
+  
 
+<!--<div class="blog-categories-container">
+    <span class="glyphicon glyphicon-folder-open"></span>-->
+    <a href="/categories/Programming-Tips/"class="btn btn-outline-light" style="border-radius: 30px 30px 30px 30px;">Programming Tips</a>
+<!--</div>-->
 
 
 </div>
@@ -180,7 +190,7 @@
 
       <!--The body variable corresponds to the content rendered from the different page type templates (cf above).-->
 
-</main>
+  </main>
 
   <!-- Footer -->
   <footer class="text-white-50 bg-dark py-5">
